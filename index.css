@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* nav-bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(35, 35, 104);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    list-style: none;
+    margin: 0 23px;
+    cursor: pointer;
+    padding-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(173, 166, 166);
+
+}
+
+.left {
+    padding-left: 40px;
+    font-size: 1.5rem;
+}
+
+/* main-section */
+.first-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 94px 0;
+    padding: 20px 30px;
+}
+
+.left-side {
+    /* background-color: red; */
+    width: 50%;
+    font-size: 2.5rem;
+    padding: 90px 90px;
+}
+
+.right-side {
+    width: 30%;
+}
+
+.right-side img {
+    width: 100%;
+    margin: 50px 0px;
+}
+
+span {
+    color: rgb(10, 172, 241);
+}
+
+#element {
+    /* color: rgb(244, 240, 12); */
+    color: rgb(10, 172, 241);
+}
+
+hr {
+    margin: 0px 20px;
+    height: 2px;
+    background-color: bisque;
+}
+
+h1 {
+    margin: 70px 80px;
+    font-weight: bolder;
+    font-size: 35px;
+    text-align: center;
+
+}
+
+.bttn {
+    margin: 5px 0;
+}
+
+button {
+    padding: 13px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: rgb(110, 110, 216);
+    font-weight: lighter;
+    border: 2px solid white;
+}
+
+button:hover {
+    color: white;
+    background-color: rgb(10, 172, 241);
+    font-weight: bolder;
+}
+
+.second-section {
+    height: 500px;
+    margin-bottom: 30PX;
+}
+
+.box {
+    width: 80%;
+    height: 2px;
+    color: white;
+    background-color: white;
+    margin: 120px 155px;
+    display: flex;
+}
+
+.second-box {
+    height: 50px;
+    background-color: white;
+    color: white;
+    width: 1px;
+    margin: 0 199px;
+}
+
+.text {
+    position: relative;
+    left: -95px;
+    top: -20px;
+    font-size: 15px;
+    text-align: center;
+    width: 190px;
+}
+
+.about-text {
+    position: relative;
+    /* top: 5px; */
+    text-align: center;
+    color: grey;
+    width: 290px;
+    left: -135px;
+}
+
+#skill-img {
+    height: 60px;
+    position: relative;
+    top: -80px;
+    left: -29px;
+}
+
+.third-section {
+    margin-bottom: 40px;
+}
+
+#flex {
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    height: 490px;
+    width: 23%;
+    background-color: white;
+    margin: 10px 50px;
+    border-radius: 20px;
+    background-color: rgb(16, 16, 69);
+}
+
+p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 5px 10px;
+}
+
+#project-img {
+    height: 170px;
+    padding: 20px 70px;
+    border-radius: 71px;
+}
+
+#project-bttn {
+    margin: 10px 120px;
+}
+
+#project-img1 {
+    height: 150px;
+    padding: 30px 20px;
+    border-radius: 40px;
+}
+
+.fourth-section {
+    margin-bottom: -90px;
+}
+
+#qual {
+    display: flex;
+    margin: 150px 200px;
+}
+
+#text-qual {
+    text-align: center;
+}
+
+#fourth-img {
+    height: 180px;
+}
+
+#fourth2-img {
+    height: 250px;
+    margin: 0 150px;
+}
+
+#fourth3-img {
+    height: 350px;
+    margin: 0 40px;
+}
+
+#h-text h3 {
+    font-size: 15px;
+    text-align: center;
+    color: grey;
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: (0);
+    }
+
+    50% {
+        transform: (-20px);
+    }
+}
+
+.bounce-h3 {
+    animation: bounce 2s infinity;
+}
+
+#container-2 {
+    width: 80%;
+    height: 700px;
+    background-color: rgb(51, 51, 51);
+    margin: 0 150px;
+    margin-bottom: 50px;
+    border-radius: 9px;
+}
+
+#form-text {
+    text-align: center;
+    padding-top: 50px;
+}
+
+input {
+    width: 80%;
+    margin: 50px 120px;
+    height: 25px;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 15px;
+    border: solid rgb(130, 159, 238);
+    background-color: rgb(71, 71, 71);
+
+}
+
+::placeholder {
+    color: rgb(202, 196, 196);
+    position: fixed;
+}
+
+textarea {
+    width: 80%;
+    margin: 50px 120px;
+    height: 25px;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 15px;
+    border: solid rgb(130, 159, 238);
+    background-color: rgb(71, 71, 71);
+    resize: vertical;
+    line-height: 1.5;
+    display: block;
+    appearance: none;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+#FORM-BTTN {
+    margin: 20PX 520PX;
+}
+
+textarea.text-arr {
+    min-height: calc(1.5em + .75rem + calc(var(--bs-border-width) * 2));
+}
+
+footer {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(22, 37, 83);
+}
+
+i {
+  display:flex;
+  font-size: 32px;
+  margin: 35px 170px;
+ 
+}
+i:hover{
+    color: orange;
+    cursor: pointer;
+}
